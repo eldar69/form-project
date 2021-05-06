@@ -23,22 +23,23 @@
                 <form action="">
                     <p>
                         <label for="name">Name</label> 
-                        <input type="text" id="name" name="">
+                        <input type="text" id="name" name="name" placeholder="Enter your Name">
                     </p>
                     
                     <p>
                         <label for="email">Email</label> 
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" placeholder="Enter your Email">
                     </p>
                      
                     <p>
                         <label for="age">Age(optional)</label> 
-                        <input type="number" id="age" name="age">
+                        <input type="number" id="age" name="age" placeholder="Age">
                     </p>
                     
                     <p>
                         <label for="roles">Which option best describes your current role?</label> 
-                        <select name="roles" id="roles">
+                        <select name="roles" id="roles" >
+                            <option value="" disabled selected>Select current role</option>
                             <option value="Student">Student</option>
                             <option value="Full time job">Full time job</option>
                             <option value="Full time learner">Full time learner</option>
@@ -48,22 +49,26 @@
                     </p>
                     
                     
-                    <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <p>Would you recommend freeCodeCamp to a friend?
                         <input type="radio">
                         <label for="definitely">Definitely</label>
                         <input type="radio">
                         <label for="maybe">Maybe</label>
                         <input type="radio">
                         <label for="not sure">Not sure</label>
+                    </p>
+                        
                     
-                    <p>What is your favorite feature of freeCodeCamp?</p>
-                        <select name="feature" id="feature">
+                    <p>What is your favorite feature of freeCodeCamp?
+                        <select name="feature" id="feature" >
+                            <option value="" disabled selected>Select an option</option>
                             <option value="challenges">challenges</option>
                             <option value="projects">projects</option>
                             <option value="community">community</option>
                             <option value="open source">open source</option>
                         </select>
-                    
+                    </p>
+
                     <p>What would you like to see improved?(check all that apply) </p>
                     <input type="checkbox">
                     <label for="front-end">Front-end Projects</label>
