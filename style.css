@@ -7,7 +7,7 @@
     box-sizing: inherit;
     }
 body {
-    background-image: url("/home/eldar/Desktop/project1/image/background_img.jpg");
+    background-image: url("image/background_img.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
