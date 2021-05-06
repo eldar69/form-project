@@ -1,0 +1,20 @@
+:root {
+    box-sizing: border-box;
+    }
+    *,
+::before,
+::after {
+    box-sizing: inherit;
+    }
+body {
+    background-image: url("/home/eldar/Desktop/project1/image/background_img.jpg");
+    font-family: lato;
+    color: #ffffff;
+    }
+body * + * {
+    margin-top: 1.5em;
+    }
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    }
