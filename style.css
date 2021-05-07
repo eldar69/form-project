@@ -22,6 +22,16 @@ body * + * {
     margin: 0 auto;
     
     }
+    .heading {
+        margin-left: 150px;
+    }
+    h1{
+        margin-left: 20px;
+    }
+    .heading2{
+        font-size: large;
+        font-style: italic;
+    }
     .form{
         background-color: #282847;
         padding: 20px;
@@ -32,22 +42,18 @@ body * + * {
     input[type=text], select {
         width: 100%;
         padding: 12px 20px;
-        margin: 8px 0;
+        margin: 6px 0 25px;
         display: inline-block;
-        border: 1px solid #ccc;
+        border: 1px solid #ffffff;
         border-radius: 4px;
         box-sizing: border-box;
       }
-
+      
       
       textarea{
           width: 100%;
       }
-
-      .features{
-        margin: 8px 0;
-        display: flex; 
-      }
+      
 
       input[type=submit] {
         width: 100%;
@@ -63,5 +69,7 @@ body * + * {
       .checkbtn{
           display: flex;
           flex-direction: column;
-
+          margin: 5px 0 15px ;
+          
       }
+    

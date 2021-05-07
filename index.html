@@ -8,30 +8,30 @@
     </head>
     <body>
         <div class="container">
-                    <div class="heading">
-                <h1> freeCodeCamp Survey Form</h1>
-                <p>Thank you for taking the time to help us improve the platform</p>
+            <div class="heading">
+                    <h1> freeCodeCamp Survey Form</h1>
+                     <p class="heading2">Thank you for taking the time to help us improve the platform</p>
             </div>
 
             <div class="form">
                 <form action="">
-                    
-                        <label for="name">Name</label> 
+                    <div class="fname">
+                        <label for="name" class="margin">Name</label> 
                         <input type="text" id="name" name="name" placeholder="Enter your Name">
                     
+                    </div>
                     
-                    
-                        <label for="email">Email</label> 
+                        <label for="email" class="margin">Email</label> 
                         <input type="text" id="email" name="email" placeholder="Enter your Email">
                     
                      
                     
-                        <label for="age">Age(optional)</label> 
+                        <label for="age" class="margin">Age(optional)</label> 
                         <input type="text" id="age" name="age" placeholder="Age">
                     
                     
                     
-                        <label for="roles">Which option best describes your current role?</label> 
+                        <label for="roles" class="margin" >Which option best describes your current role?</label> 
                         <select name="roles" id="roles" >
                             <option value="" disabled selected>Select current role</option>
                             <option value="Student">Student</option>
@@ -43,7 +43,7 @@
                     
                     
                     <div class="checkbtn">
-                        <p>Would you recommend freeCodeCamp to a friend?</p> 
+                        <p class="margin">Would you recommend freeCodeCamp to a friend?</p> 
                         
                         <label for="definitely">
                            <input type="radio">
@@ -64,7 +64,7 @@
                     
                         
                     
-                    <p>What is your favorite feature of freeCodeCamp?</p> 
+                    <p class="margin">What is your favorite feature of freeCodeCamp?</p> 
                         <select name="feature" id="feature" class="features">
                             <option value="" disabled selected>Select an option</option>
                             <option value="challenges">challenges</option>
@@ -74,7 +74,7 @@
                         </select>
                     
                  <div class="checkbtn">
-                    <p>What would you like to see improved?(check all that apply) </p>
+                    <p class="margin">What would you like to see improved?(check all that apply) </p>
                     
                     <label for="front-end"> 
                         <input type="checkbox">
